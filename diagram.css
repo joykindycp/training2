@@ -1,0 +1,166 @@
+.Title {
+	background-color: #1e88e5;
+	color: white;
+	text-align: center;
+	width: 100%;
+	cursor: pointer;
+	border-color: #1e88e5;
+}
+
+ .child-card {
+            padding-bottom: 10px;
+         }
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+row {
+  width: 100%;
+}
+.flex-item {
+  background-color: #FFFFFF;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin: 10px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+  box-shadow: 0px 4px 8px rgb(0 0 0/20%)
+}
+
+.tes1{
+			margin: 10px;
+			padding: 20px;
+			border: 1px solid #ddd;
+			border-radius: 10px;
+			background-color:#FFFFFF;
+			float: right;
+			width: 35%;
+			font-size: 12px;
+			box-shadow: 0px 4px 8px rgb(0 0 0/10%)
+}
+
+.grid {
+  display: grid;
+  margin: auto;
+  grid-template-columns: repeat(2, 2fr);
+  grid-auto-rows: minmax(auto, auto);
+  grid-gap: 10px;
+
+
+}
+
+		.card {
+			border-radius: 10px;
+			box-shadow: 0px 0px 10px #ccc;
+			padding: 20px;
+			margin-bottom: 20px;
+			background-color: #FFFFFF;
+			box-shadow: 0px 4px 8px rgb(0 0 0/20%)
+		}
+		.card-body {
+			font-size: 18px;
+		}
+
+.judul1{
+	text-align: left;
+	font-size: 10px;
+}
+
+.diagram {
+  display: grid;
+  grid-template-columns: 50px 70px 70px 70px 70px 70px 70px 70px;
+  grid-template-rows: 40px 40px 40px 40px 40px 40px 40px 40px 40px 30px;
+  width: 100px;
+  height: 390px;
+  margin: 20px;
+}
+
+.balok {
+  grid-row: 2 / span 8;
+  background-color: #fddd4e;
+  margin: 0 10px;
+  display: flex;
+  align-self: flex-end;
+}
+
+.data {
+  margin-left: -.2em;
+  border-top: solid .2em #2c1544;
+  grid-row: 10;
+  text-align: center;
+}
+
+.balok.a,
+.data.a {
+  grid-column: 2;
+}
+
+.balok.b,
+.data.b {
+  grid-column: 3;
+}
+
+.balok.c,
+.data.c {
+  grid-column: 4;
+}
+.balok.e,
+.data.e {
+  grid-column: 2;
+}
+.balok.f,
+.data.f {
+  grid-column: 3;
+}
+.balok.g,
+.data.g {
+  grid-column: 4;
+}
+.balok.h,
+.data.h {
+  grid-column: 2;
+}
+.balok.i,
+.data.i {
+  grid-column: 3;
+}
+.balok.j,
+.data.j {
+  grid-column: 4;
+}
+
+#balok-a {
+  height: 50%;
+}
+#balok-b {
+  height: 55%;
+}
+#balok-c {
+  height: 53%;
+}
+#balok-e {
+  height: 46%;
+}
+#balok-f {
+  height: 52%;
+}
+#balok-g {
+  height: 49%;
+}
+#balok-h {
+  height: 56%;
+}
+#balok-i {
+  height: 64%;
+}
+#balok-j {
+  height: 59%;
+}
